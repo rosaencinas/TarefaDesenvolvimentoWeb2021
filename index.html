@@ -1,0 +1,97 @@
+<!DOCTYPE	html>
+<html>
+	<head>
+		<title>Página exemplo do esqueleto</title>
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+		<script type="text/javascript" src="js/turma2021.js"></script>
+
+	</head>
+
+	<body>
+		<div id = "tudo">
+			<div id = "parte_superior">
+				<div id ="logo" class= "logo">
+					<img src="img/logo.jpg" height="120 px">
+				</div>
+				<div id ="menu" class= "menu">
+					<nav>
+						<a href="esqueleto.html"> Inicio </a>
+						<a href="sobre.html"> Sobre </a>
+						<a href=""> Fórmulas </a>
+						<a href=""> Química </a>
+						<a href=""> Contacto </a>
+					</nav>
+				</div>
+				<div id ="publicidade" class= "logo">
+
+				</div>
+			</div>
+
+			<div id = "parte_inferior">
+				<div id ="titulo" class= "conteudo"> Inicio>> </div>
+				<div id ="conteudo" class= "conteudo">
+					<button type="button" class="btn btn-primary">Primary</button>
+					<button type="button" class="btn btn-secondary">Secondary</button>
+					<button type="button" class="btn btn-success">Success</button>
+					<button type="button" class="btn btn-danger">Danger</button>
+					<button type="button" class="btn btn-warning">Warning</button>
+					<button type="button" class="btn btn-info">Info</button>
+					<button type="button" class="btn btn-light">Light</button>
+					<button type="button" class="btn btn-dark">Dark</button>
+
+					<form>
+						Indicar sexo: <input type="radio" name="F"  id ="F" value="F"> F <input type="radio" name="M" value="M"> M
+						<br>
+						Nome: <input type="text" name="">
+						<br>
+						Sobrenome: <input type="text" name="">
+						<br>
+						Data de nacimento: 
+						<input type="date" id="start" name="trip-start"
+						       value="2018-07-22"
+						       min="1970-01-01" max="2021-12-31">
+						<br>
+						Cidade de nacimento: <input type="text" name="">
+						<br>
+						Pais de nacimento: 
+						<select>
+							<option>Brasil</option>
+							<option>Perú</option>
+							<option>Spain</option>
+						</select>
+
+						<br>
+						Nacionalidade: 
+						<select>
+							<option>Brasil</option>
+							<option>Perú</option>
+							<option>Spain</option>
+							<option>Afeganistão</option>
+						</select>
+						<br>
+						Data de emissão de passaporte: 
+						<input type="date" id="start" name="trip-start"
+						       value="2018-07-22"
+						       min="1970-01-01" max="2021-12-31">
+						<br>
+						
+						<input type="submit" name="enviar" value="Enviar" onclick="janeladeconfirmacao();"> 
+
+						<input type="reset">
+
+					</form>	
+
+					<br>
+					
+
+				</div>
+			</div>
+
+			<div id ="pe" class= "logo"></div>
+		</div>
+	</body>
+</html>
